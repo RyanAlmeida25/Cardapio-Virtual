@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="./styles/output.css">
+
+<title>Ifome</title>
+</head>
+<body>
+<!-- CABEÇALHO -->
+<header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center bg-no-repeat">
+    <div class="w-full h-full flex flex-col justify-center items-center">
+        <a href="./index.html">
+            <img src="./assets/logo-Sabor&Sabor.png"
+            alt="Logo do Ifome"
+            class="w-80 h-80 rounded-full shadow-lg hover:scale-110 duration-200 opacity-1"
+            >
+        </a>
+        <div class="bg-orange-500 opacity-90 px-6 py-1 rounded-lg mt-1 backdrop-blur-sm">
+            <h1 class="text-2xl font-bold text-black">Sabor & Sabor</h1>
+        </div>
+
+
+    <span class="text-white font-medium px-2 py-1 rounded-lg bg-black bg-opacity-75 mt-2">Rua Exemplo, 123</span>
+    </div>
+</header>
+
+<!-- FIM CABEÇALHO -->
+
+<h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">Faça seu pedido </h2>
+
+
+
+    <div  id="cardapio">
+
+        <h6 class="text-1xl md:text-1xl font-bold text-center mt-9 mb-6" style="text-decoration: underline;">Hamburguers</h6>
+
+        <main class="grid grid-cols-1 md:grid-cols-2 gap-7 mx-auto max-w-7xl px-2 mb-16">
+
+
+
+            <div class="flex gap-2 mb-2">
+
+                <img src="./assets/classico-cheese-Burguer.jpg" alt="Lanche 1" class="w-28 h-28 flex-shrink-0 object-cover rounded-md shadow-md hover:scale-110 hover:rotate-3 duration-300">
+            
+                
+                
+                    <div>
+                        <p class="font-bold">Cheese Burguer</p>
+                        
+                        <p class="text-sm">Suculento hambúrguer bovino grelhado na brasa, coberto por uma generosa camada de queijo derretido, acompanhado por picles frescos, rodelas de cebola roxa, ketchup e mostarda.</p>
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            
+                            <p class="font-bold text-lg">R$ 19,90</p>
+                            
+                            <button class="bg-green-600 px-5 rounded hover:bg-green-700 hover:scale-110 duration-200
+                            addBtn"
+                            data-name="Cheese Burguer"
+                            data-price="19.90">
+
+                            <i class="fas fa-cart-plus"></i>
+
+                            </button>
+                        </div>
+                    </div>
+                        
+                        
+                
+
+            </div>
+
+
+            <div class="flex gap-2 mt-2">
+                <img src="./assets/bacon-supreme.jpg" alt="Lanche 1" class="w-28 h-28 flex-shrink-0 object-cover rounded-md shadow-md hover:scale-110 hover:rotate-3 duration-300">
+            
+                
+                
+                    <div>
+                        <p class="font-bold">Bacon Supreme</p>
+                        
+                        <p class="text-sm">o hambúrguer definitivo para os verdadeiros amantes de bacon. Combinando diferentes texturas e contrastes em uma mordida monumental e inesquecível.</p>
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            
+                            <p class="font-bold text-lg">R$ 32,90</p>
+                            
+                            <button class="bg-green-600 px-5 rounded hover:bg-green-700 hover:scale-110 duration-200
+                            addBtn"
+                            data-name="Bacon Supreme"
+                            data-price="32.90">
+
+                            <i class="fas fa-cart-plus"></i>
+                            
+                            </button>
+                        </div>
+                    </div>
+                        
+                        
+                
+
+            </div>
+
+
+            <div class="flex gap-2 mt-2">
+                <img src="./assets/bbq-smoky.jpg" alt="Lanche 1" class="w-28 h-28 flex-shrink-0 object-cover rounded-md shadow-md hover:scale-110 hover:rotate-3 duration-300">
+            
+                
+                
+                    <div>
+                        <p class="font-bold">BBQ Smoky</p>
+                        
+                        <p class="text-sm">Este blend artesanal é grelhado no fogo forte e ganha uma crosta perfeitamente selada, mantendo toda a suculência da carne.</p>
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            
+                            <p class="font-bold text-lg">R$ 24,90</p>
+                            
+                            <button class="bg-green-600 px-5 rounded hover:bg-green-700 hover:scale-110 duration-200
+                            addBtn"
+                            data-name="BBQ Smoky"
+                            data-price="24.90">
+
+                            <i class="fas fa-cart-plus"></i>
+                            
+                            </button>
+                        </div>
+                    </div>
+                        
+                        
+                
+
+            </div>
+
+            <div class="flex gap-2 mt-2">
+                <img src="./assets/mexicano-picante.jpg" alt="Lanche 1" class="w-28 h-28 flex-shrink-0 object-cover rounded-md shadow-md hover:scale-110 hover:rotate-3 duration-300">
+            
+                
+                
+                    <div>
+                        <p class="font-bold">Mexicano picante</p>
+                        
+                        <p class="text-sm">Este blend artesanal é grelhado no fogo forte e ganha uma crosta perfeitamente selada, mantendo toda a suculência da carne.</p>
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            
+                            <p class="font-bold text-lg">R$ 24,90</p>
+                            
+                            <button class="bg-green-600 px-5 rounded hover:bg-green-700 hover:scale-110 duration-200
+                            addBtn"
+                            data-name="Mexicano picante"
+                            data-price="24.90">
+
+                            <i class="fas fa-cart-plus"></i>
+                            
+                            </button>
+                        </div>
+                    </div>
+                        
+                        
+                
+
+            </div>
+            <br>
+            
+        </main>
+
+        <h6 class="text-1xl md:text-1xl font-bold text-center mt-9 mb-6" style="text-decoration: underline;">Pizzas</h6>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 mx-auto max-w-7xl px-2 mb-16" id="menu">
+
+            <div class="flex gap-2 mt-2">
+                <img src="./assets/calabresa.jpg" alt="Lanche 1" class="w-28 h-28 flex-shrink-0 object-cover rounded-md shadow-md hover:scale-110 hover:rotate-3 duration-300">
+            
+                
+                
+                    <div>
+                        <p class="font-bold">Pizza de calabresa</p>
+                        
+                        <p class="text-sm">Massa artesanal, molho de tomate caseiro. Muçarela, calabresa fatiada, cebola, azeitonas verdes e orégano.</p>
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            
+                            <p class="font-bold text-lg">R$ 35,90</p>
+                            
+                            <button class="bg-green-600 px-5 rounded hover:bg-green-700 hover:scale-110 duration-200
+                            addBtn"
+                            data-name="Pizza de calabresa"
+                            data-price="35.90">
+
+                            <i class="fas fa-cart-plus"></i>
+                            
+                            </button>
+                        </div>
+                    </div>
+            </div>
+
+
+            <div class="flex gap-2 mt-2">
+                <img src="./assets/peperoni.jpg" alt="Lanche 1" class="w-28 h-28 flex-shrink-0 object-cover rounded-md shadow-md hover:scale-110 hover:rotate-3 duration-300">
+            
+                
+                
+                    <div>
+                        <p class="font-bold">Pizza de Pepperoni</p>
+                        
+                        <p class="text-sm">Massa dourada e crocante, molho de tomate bem temperado. Muçarela, pepperoni fatiado, cebola, azeitonas verdes e orégano.</p>
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            
+                            <p class="font-bold text-lg">R$ 40,90</p>
+                            
+                            <button class="bg-green-600 px-5 rounded hover:bg-green-700 hover:scale-110 duration-200
+                            addBtn"
+                            data-name="Pizza de Pepperoni"
+                            data-price="40.90">
+
+                            <i class="fas fa-cart-plus"></i>
+                            
+                            </button>
+                        </div>
+                    </div>
+            </div>
+
+            
+            <div class="flex gap-2 mt-2">
+                <img src="./assets/margarita.jpg" alt="Lanche 1" class="w-28 h-28 flex-shrink-0 object-cover rounded-md shadow-md hover:scale-110 hover:rotate-3 duration-300">
+            
+                
+                
+                    <div>
+                        <p class="font-bold">Pizza Margherita</p>
+                        
+                        <p class="text-sm">Preparada com uma massa fina e crocante fermentada naturalmente. Massa fina e crocante, molho de tomate natural, muçarela fresca e folhas de manjericão.</p>
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            
+                            <p class="font-bold text-lg">R$ 38,90</p>
+                            
+                            <button class="bg-green-600 px-5 rounded hover:bg-green-700 hover:scale-110 duration-200
+                            addBtn"
+                            data-name="Pizza Margherita"
+                            data-price="38.90">
+
+                            <i class="fas fa-cart-plus"></i>
+                            
+                            </button>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="flex gap-2 mt-2">
+                <img src="./assets/4queijos.jpg" alt="Lanche 1" class="w-28 h-28 flex-shrink-0 object-cover rounded-md shadow-md hover:scale-110 hover:rotate-3 duration-300">
+            
+                
+                
+                    <div>
+                        <p class="font-bold">Pizza Quatro Queijos</p>
+                        
+                        <p class="text-sm">Massa fina e crocante coberta com uma cremosa combinação de quatro queijos selecionados. Massa fina e crocante, molho de tomate natural, muçarela fresca, provolone, gorgonzola e parmesão.</p>
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            
+                            <p class="font-bold text-lg">R$ 42,90</p>
+                            
+                            <button class="bg-green-600 px-5 rounded hover:bg-green-700 hover:scale-110 duration-200
+                            addBtn"
+                            data-name="Pizza Quatro Queijos"
+                            data-price="42.90">
+
+                            <i class="fas fa-cart-plus"></i>
+                            
+                            </button>
+                        </div>
+                    </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+        <div class="mx-auto max-w-7xl px-2 my-2 text-center">
+            <h2 class="font-bold text-xl mb-3" style="text-decoration: underline;">Bebidas</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 mx-auto max-w-7xl px-2 mb-16" id="menu">
+
+            <div class="flex gap-2 mt-2">
+                <img src="./assets/maracuja.jpeg" alt="Lanche 1" class="w-28 h-28 flex-shrink-0 object-cover rounded-md shadow-md hover:scale-110 hover:rotate-3 duration-300">
+            
+                
+                
+                    <div>
+                        <p class="font-bold">Smoothie de Manga e Maracujá</p>
+                        
+                        <p class="text-sm">Smoothie cremoso de manga madura com maracujá. Rico em vitaminas e sabor tropical intenso.</p>
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            
+                            <p class="font-bold text-lg">R$ 7,00</p>
+                            
+                            <button class="bg-green-600 px-5 rounded hover:bg-green-700 hover:scale-110 duration-200
+                            addBtn"
+                            data-name="Smoothie de Manga e Maracujá"
+                            data-price="7.00">
+
+                            <i class="fas fa-cart-plus"></i>
+                            
+                            </button>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="flex gap-2 mt-2">
+                <img src="./assets/limonada.jpeg" alt="Lanche 1" class="w-28 h-28 flex-shrink-0 object-cover rounded-md shadow-md hover:scale-110 hover:rotate-3 duration-300">
+            
+                
+                
+                    <div>
+                        <p class="font-bold">Limonada Fresca com Hortelã</p>
+                        
+                        <p class="text-sm">Limonada artesanal feita com limões frescos, toque de hortelã e açúcar mascavo. A mais refrescante do cardápio!</p>
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            
+                            <p class="font-bold text-lg">R$ 5,00</p>
+                            
+                            <button class="bg-green-600 px-5 rounded hover:bg-green-700 hover:scale-110 duration-200
+                            addBtn"
+                            data-name="Limonada Fresca com Hortelã"
+                            data-price="5.00">
+
+                            <i class="fas fa-cart-plus"></i>
+                            
+                            </button>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="flex gap-2 mt-2">
+                <img src="./assets/virjin.jpeg" alt="Lanche 1" class="w-28 h-28 flex-shrink-0 object-cover rounded-md shadow-md hover:scale-110 hover:rotate-3 duration-300">
+            
+                
+                
+                    <div>
+                        <p class="font-bold">Virgin Mojito</p>
+                        
+                        <p class="text-sm">Versão sem álcool do clássico mojito: hortelã fresca, limão, açúcar e água com gás. Leve e super refrescante.</p>
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            
+                            <p class="font-bold text-lg">R$ 15,00</p>
+                            
+                            <button class="bg-green-600 px-5 rounded hover:bg-green-700 hover:scale-110 duration-200
+                            addBtn"
+                            data-name="Virgin Mojito"
+                            data-price="15.00">
+
+                            <i class="fas fa-cart-plus"></i>
+                            
+                            </button>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="flex gap-2 mt-2">
+                <img src="./assets/iced.jpeg" alt="Lanche 1" class="w-28 h-28 flex-shrink-0 object-cover rounded-md shadow-md hover:scale-110 hover:rotate-3 duration-300">
+            
+                
+                
+                    <div>
+                        <p class="font-bold">Iced Tea de Frutas Vermelhas</p>
+                        
+                        <p class="text-sm">Chá preto gelado infusionado com frutas vermelhas. Doce natural e levemente ácido, perfeito para qualquer hora.</p>
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            
+                            <p class="font-bold text-lg">R$ 8,00</p>
+                            
+                            <button class="bg-green-600 px-5 rounded hover:bg-green-700 hover:scale-110 duration-200
+                            addBtn"
+                            data-name="Iced Tea de Frutas Vermelhas"
+                            data-price="8.00">
+
+                            <i class="fas fa-cart-plus"></i>
+                            
+                            </button>
+                        </div>
+                    </div>
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+    <!-- Modal -->
+        <div class="bg-black/50 w-full h-full fixed top-0 left-0 z-[99]  items-center justify-center hidden">
+
+            <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+                <h2 class="font-bold text-center text-2xl mb-2">Meus pedidos</h2>
+
+                <div id="itemsCart" class="flex justify-between mb-2 flex-col"></div>
+
+                <p class="font-bold">Total: <span id="precoTotal">0.00</span></p>
+
+                <p class="font-bold mt-4">Numero da mesa: <span id="numeroMesa">0</span></p>
+                <input 
+                type="number"
+                placeholder="Digite o numero da mesa..."
+                id="mesaNumero"
+                class="w-full border-2 p-1 rounded my-1"
+                />
+
+                <p class="text-red-600 hidden" id="inputWarn">Digite apenas numeros.</p>
+
+                <div class="flex items-center justify-between mt-5 w-full">
+                    <button id="fecharBtn" class="bg-red-500 text-white px-4 py-1 rounded hover:bg-red-700 hover:underline">Fechar</button>
+                    <button id="finalizarBtn" class="bg-green-500 text-white px-4 py-1 rounded hover:bg-green-700 hover:underline">Finalizar Pedido</button>
+                </div>
+
+
+
+
+            </div>
+
+
+        </div>
+    <!-- Modal -->
+
+    <!-- Footer -->
+    <footer class="w-full bg-red-500 py-2 fixed bottom-0 z-40  justify-center items-center hover:bg-red-700 duration-200 flex" id="footer">
+        <button class=" items-center gap-2 text-white font-bold flex" id="cartBtn">
+            (<span id="cartCount">0</span>) 
+            Veja seus pedidos
+            <i class="fas fa-shopping-cart text-lg text-white"></i>
+        </button>
+    </footer>
+
+</body>
+</html>
