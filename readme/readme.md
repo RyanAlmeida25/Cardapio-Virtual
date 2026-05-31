@@ -16,3 +16,5 @@ Este projeto destina-se apenas a estudos, testes, apresentações acadêmicas e 
 - Não permitido: utilização do sistema para geração de receita ou fins lucrativos sem autorização prévia do autor.
 
 © 2026 Todos os direitos reservados ao autor.
+
+Ryan Iury.
